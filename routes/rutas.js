@@ -4,7 +4,7 @@ const cuadrado = require("../calculos");
 
 
 router.get('/', (req, res) => {
-    res.sendFile(process.cwd()+"/public/index.html")
+    res.send("Hola mundo")
 });
 
 router.get('/calculos/:width', (req, res) => {
